@@ -34,6 +34,8 @@
   <li>Run Mysql</li>
   <li>Run The command <b>php artisan serve</b> within your project's directory</li>
   <li>Run The command <b>php artisan migrate</b></li>
+  <li>You must have internet when you are runing the project</li>
+  <li>Because i used many online libraries like swiperjs and stripe payment </li>
 </ul>
 
  # How To use :
@@ -48,7 +50,7 @@
  # After You are Logged in :
  
 Go to Mysql database, in a table named <b>users</b> where your information you will find a column named <b>status</b> and you
-will find the vakue is 0 bay Default, then Change it to 1. 
+will find the value is 0 bay Default, then Change it to 1. 
 
 ![screenshot-nimbusweb me-2023 05 24-13_47_29status](https://github.com/nabilaithoummad/Laravel-Ecommerce-Website/assets/122677418/01df3469-58f7-4970-96d8-9e3b88691593)
 
