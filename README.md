@@ -49,6 +49,9 @@
  
 Go to Mysql database, in a table named <b>users</b> where your information you will find a column named <b>status</b> and you
 will find the vakue is 0 bay Default, then Change it to 1. 
+
+![screenshot-nimbusweb me-2023 05 24-13_47_29status](https://github.com/nabilaithoummad/Laravel-Ecommerce-Website/assets/122677418/01df3469-58f7-4970-96d8-9e3b88691593)
+
 That's will make you an admin and when you logged in you will redirect to the Admin Dashboard
 
  
