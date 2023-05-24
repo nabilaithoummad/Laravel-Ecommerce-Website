@@ -1,0 +1,375 @@
+
+#loginsection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(to bottom, #024d68, #b2b2b2) no-repeat center center fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+#confirm_password{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #024d68, #b2b2b2) no-repeat center center fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+#reset_password{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #024d68, #b2b2b2) no-repeat center center fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#forgot_password{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #024d68, #b2b2b2) no-repeat center center fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+#verify_email{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #024d68, #b2b2b2) no-repeat center center fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+@media screen and (min-width: 990px) {
+    #loginsection form{
+        width: 35%;
+        background-color: #ffffff;
+    }
+
+    #confirm_password form{
+        width: 35%;
+        background-color: #ffffff;
+    }
+
+    #reset_password form{
+        width: 35%;
+        background-color: #ffffff;
+    }
+
+    #forgot_password form{
+        width: 35%;
+        background-color: #ffffff;
+    }
+
+    #verify_email #forms{
+        width: 35%;
+        background-color: #ffffff;
+    }
+}
+
+@media screen and (max-width: 989px) {
+    #loginsection form{
+        width: 55%;
+        background-color: #ffffff;
+    }
+
+    #confirm_password form{
+        width: 55%;
+        background-color: #ffffff;
+    }
+
+    #reset_password form{
+        width: 55%;
+        background-color: #ffffff;
+    }
+
+    #forgot_password form{
+        width: 55%;
+        background-color: #ffffff;
+    }
+
+    #verify_email #forms{
+        width: 55%;
+        background-color: #ffffff;
+    }
+
+}
+
+
+@media screen and (max-width: 700px) {
+    #loginsection form{
+        width: 75%;
+        background-color: #ffffff;
+    }
+
+    #confirm_password form{
+        width: 75%;
+        background-color: #ffffff;
+    }
+
+
+    #reset_password form{
+        width: 75%;
+        background-color: #ffffff;
+    }
+
+
+    #forgot_password form{
+        width: 75%;
+        background-color: #ffffff;
+    }
+
+    #verify_email #forms{
+        width: 75%;
+        background-color: #ffffff;
+    }
+
+}
+
+
+
+@media screen and (max-width: 420px) {
+    #loginsection form{
+        width: 100%;
+        background-color: #ffffff;
+    }
+    #loginsection{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to bottom, #024d68, #b2b2b2) no-repeat center center fixed;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+
+
+    #confirm_password form{
+        width: 100%;
+        background-color: #ffffff;
+    }
+    #confirm_password{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to bottom, #024d68, #b2b2b2) no-repeat center center fixed;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+    #reset_password form{
+        width: 100%;
+        background-color: #ffffff;
+    }
+    #reset_password{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to bottom, #024d68, #b2b2b2) no-repeat center center fixed;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+    #forgot_password form{
+        width: 100%;
+        background-color: #ffffff;
+    }
+    #forgot_password{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to bottom, #024d68, #b2b2b2) no-repeat center center fixed;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+    #verify_email #forms{
+        width: 100%;
+        background-color: #ffffff;
+    }
+    #verify_email{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        background: linear-gradient(to bottom, #024d68, #b2b2b2) no-repeat center center fixed;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+}
+
+
+
+/* --------------------register------------------------ */
+
+
+
+#registersection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #024d68, #b2b2b2) no-repeat center center fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+#registersection form{
+    background-color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#registersection form #inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#registersection form #inputs #main1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#registersection form #inputs #main2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    #registersection{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(to bottom, #024d68, #b2b2b2) no-repeat center center fixed;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+
+    #registersection form #inputs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #registersection form #inputs #main1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #registersection form #inputs #main2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    #registersection{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(to bottom, #024d68, #b2b2b2) no-repeat center center fixed;
+    }
+
+
+    #registersection form #inputs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #registersection form #inputs #main1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #registersection form #inputs #main2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #registersection form{
+        background-color: white;
+        width: 93%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}

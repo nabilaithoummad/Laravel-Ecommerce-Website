@@ -1,0 +1,545 @@
+
+#formsearch #div1{
+    width: 400px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#formsearch #div1 button{
+    width: 10%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px 0px 0px 8px;
+
+}
+
+#formsearch #div1 button:hover{
+    background-color: grey;
+}
+
+
+#search_product{
+    width: 80%;
+    height: 100%;
+    padding-left: 16px;
+    border: 1px solid rgb(217 206 206);
+    border-radius: 0px 8px 8px 0px;
+    outline: none;
+
+}
+
+
+
+
+#div2{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#formsearch #div2 select{
+    width: 40%;
+    height: 100%;
+    height: 40px;
+    border: 1px solid rgb(217 206 206);
+    border-radius: 8px;
+    padding-left: 10px;
+    outline: none;
+
+}
+
+
+
+
+header{
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+    background-color: rgb(255, 248, 248);
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    z-index: 100000000000000000000000;
+}
+
+#logo{
+    width: 25%;
+    margin: 0;
+    padding-left: 20px;
+}
+#logo h2{
+    width: 100%;
+    margin: 0;
+}
+
+/* ---------------------searching form------------------------------ */
+
+#formSearch{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+#formSearch #hidden_i{
+    display: none;
+}
+
+#formdiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#search{
+    border-radius: 0.25rem 0 0 0.25rem;
+    height: 40px;
+}
+
+
+
+#searchimg{
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+/* --------------------notification and profile div---------------------- */
+
+#notf{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* -------------------notifications and messages icons */
+#not{
+    width: 33.33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+#mess{
+    width: 33.33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#not i{
+    height: 40px;
+    cursor: pointer;
+    font-size: 23px;
+    padding-top: 2px;
+    color: #0d6efd;
+}
+
+#not i:hover{
+    color: blue;
+}
+
+#mess i{
+    height: 40px;
+    cursor: pointer;
+    font-size: 23px;
+    padding-top: 2px;
+
+    color: #0d6efd;
+}
+
+#mess i:hover{
+    color: blue;
+}
+
+/* --------------------dropdown profile div------------------- */
+
+#profiledev{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    width: 33.33%;
+    padding-top: 5px;
+    justify-content: center;
+    border-left: 1px solid;
+}
+#prfl{
+    height: 35px;
+    margin-top: -1px;
+    margin-right: 15px;
+}
+#user_name{
+    color: blue;
+    margin-right: 15px;
+}
+
+/*-------------------------------- section style-------------------------- */
+
+section{
+    height: 100vh;
+    position: relative;
+}
+/* ---------------------------------sidebar------------------------------ */
+nav{
+    width: 16%;
+    height: 100vh;
+    position: fixed;
+    margin-top: 61px;
+}
+
+#menu_btn{
+    display: none;
+}
+
+.nav li{
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.76);
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-bottom: 6px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav li a i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-left: 15px;
+}
+
+
+.nav li a span{
+    padding-top: 5px;
+}
+
+.nav li a{
+    color: inherit;text-decoration: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav li:hover{
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+}
+
+/* ---------------------------------main-------------------------------- */
+
+main{
+    width: 84%;
+    left: 16%;
+    height: 100vh;
+    padding: 20px;
+}
+
+
+
+
+/* ---------------------------------media queries------------------------- */
+@media only screen and (max-width: 700px) {
+
+    header{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #logo{
+        width: 37%;
+        margin: 0;
+        padding-left: 5px;
+    }
+    #logo h2{
+        width: 100%;
+    }
+
+
+
+
+
+    #formSearch #hidden_i{
+        display: block;
+        color: #0d6efd;
+        font-size: larger;
+        cursor: pointer;
+    }
+
+
+    #notf{
+        width: 40%;
+        padding-top: 5px;
+    }
+
+    #not{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 4px;
+    }
+    #mess{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 2px;
+    }
+
+
+    #profiledev{
+        cursor: pointer;
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-left: hidden;
+    }
+    #prfl{
+        height: 35px;
+        margin-top: -1px;
+        margin-left: 19px;
+    }
+    #user_name{
+        display: none;
+    }
+
+
+    nav{
+        width: 9%;
+    }
+
+    main{
+        width: 91%;
+        position: relative;
+        left: 9%;
+        height: 100vh;
+    }
+
+    #popup{
+        width: 84%;
+        position: fixed;
+    }
+    .nav li{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .nav li a span{
+        display: none;
+    }
+    .nav li a i{
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    #menu_btn{
+        width: 100%;display: flex;flex-direction: row; justify-content: center;color: white;padding-top: 7px;cursor: pointer;
+    }
+
+
+    #formdiv {
+        display: none;
+        flex-direction: row;
+        width: 653px;
+        position: absolute;
+        BACKGROUND-COLOR: white;
+        top: 75px;
+        /* z-index: 000000000000000; */
+        left: -241px;
+        padding: 10px 10px 10px 10px;
+        box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+    }
+
+
+
+
+    #formSearch {
+        width: 23%;
+        padding-top: 13px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        padding-left: 13%;
+    }
+
+}
+
+
+@media only screen and (max-width: 470px) {
+    .nav li a{
+        color: inherit;text-decoration: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav li a span{
+        display: none;
+        text-align: center;
+    }
+    nav{
+        width: 9%;
+    }
+
+    main{
+        width: 91%;
+        position: absolute;
+        left: 9%;
+        height: 100vh;
+    }
+    #logo{
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 701px) {
+    main{
+        width: 80%;
+        position: absolute;
+        left: 20%;
+        height: 100vh;
+    }
+
+    #user_name {
+        color: blue;
+        margin-right: 6px;
+        width: 80%;
+        text-align: end;
+        padding-left: 0px;
+    }
+
+    #popup{
+        display: block;
+    }
+
+    #profiledev {
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        width: 48.33%;
+        padding-top: 5px;
+        justify-content: right;
+        border-left: 1px solid;
+        /* flex-wrap: wrap; */
+    }
+    #mess {
+        width: 33.33%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #not {
+        width: 18.33%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    #notf {
+        width: 36%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #formSearch {
+        width: 39%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav li a i {
+        font-size: 20px;
+        margin-right: 15px;
+        padding-left: 5px;
+    }
+
+    nav {
+        width: 20%;
+    }
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 850px) {
+    main{
+        width: 84%;
+        position: absolute;
+        left: 16%;
+        height: 100vh;
+    }
+    #user_name {
+        color: blue;
+        margin-right: 6px;
+        width: 80%;
+        text-align: end;
+        padding-left: 0px;
+    }
+
+    #popup{
+        display: block;
+    }
+
+    #profiledev {
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        width: 48.33%;
+        padding-top: 5px;
+        justify-content: right;
+        border-left: 1px solid;
+        /* flex-wrap: wrap; */
+    }
+    #mess {
+        width: 33.33%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #not {
+        width: 18.33%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    #notf {
+        width: 36%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #formSearch {
+        width: 39%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav li a i {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+
+    nav {
+        width: 16%;
+    }
+
+
+
+}
+
+
+
+
+
