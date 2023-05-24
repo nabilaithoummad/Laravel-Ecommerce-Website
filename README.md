@@ -52,6 +52,8 @@ will find the vakue is 0 bay Default, then Change it to 1.
 
 ![screenshot-nimbusweb me-2023 05 24-13_47_29status](https://github.com/nabilaithoummad/Laravel-Ecommerce-Website/assets/122677418/01df3469-58f7-4970-96d8-9e3b88691593)
 
-That's will make you an admin and when you logged in you will redirect to the Admin Dashboard
+That's will make you an admin and when you logged in you will redirect to the Admin Dashboard.
+
+![screenshot-nimbusweb me-2023 05 24-13_46_13](https://github.com/nabilaithoummad/Laravel-Ecommerce-Website/assets/122677418/1d8b4793-14ff-406e-8dfd-2f41fc4bf8ff)
 
  
