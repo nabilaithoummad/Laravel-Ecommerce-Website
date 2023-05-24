@@ -1,2 +1,54 @@
 # Laravel-Ecommerce-Website
-Laravel Ecommerce Project using html css bootstrap javascript laravel mysql
+
+# Technologies that i'm using
+
+<ul>
+  <li>html</li>
+  <li>Css</li>
+  <li>Bootstrap</li>
+  <li>Javascript</li>
+  <li>Swiper Js</li>
+  <li>Php</li>
+  <li>Laravel Framework</li>
+  <li>Mysql</li>
+</ul>
+
+# To run this project you must :
+  
+ ### Install Php
+ 
+ Make sure you have PHP installed on your system.
+ 
+ ### Install A Web Server
+ 
+ I am using xampp but you can choose the web server that best suits your needs and install it on your system.
+ 
+ ### Install Composer
+  
+ You can download and install Composer from the official website [https://getcomposer.org](https://getcomposer.org/download/).
+ 
+ # When you install all the project need's you can :
+ 
+ <ul>
+  <li>Run the web server</li>
+  <li>Run Mysql</li>
+  <li>Run The command <b>php artisan serve</b> within your project's directory</li>
+  <li>Run The command <b>php artisan migrate</b></li>
+</ul>
+
+ # How To use :
+ 
+<ul>
+  <li>To make an order you must be authenticated </li>
+  <li>You can login and register</li>
+  <li>You Must verify Your Email</li>
+  <li>You will get a verify link on you email inbox</li>
+</ul>
+
+ # After You are Logged in :
+ 
+Go to Mysql database, in a table named <b>users</b> where your information you will find a column named <b>status</b> and you
+will find the vakue is 0 bay Default, then Change it to 1. 
+That's will make you an admin and when you logged in you will redirect to the Admin Dashboard
+
+ 
